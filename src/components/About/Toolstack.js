@@ -4,8 +4,11 @@ import {
   SiPuppeteer,
   SiVisualstudiocode,
   SiTailwindcss,
+  SiGithub,
+  SiGit,
   SiRedux,
-  SiWebsockets,
+  SiVercel,
+  SiIntellijidea,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -13,6 +16,18 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPuppeteer />

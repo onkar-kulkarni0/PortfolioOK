@@ -7,7 +7,6 @@ import {
   DiHtml5,
   DiCss3,
   DiNodejs,
-  DiGit,
 } from 'react-icons/di'
 import {
   SiFirebase,
@@ -33,9 +32,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
